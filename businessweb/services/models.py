@@ -15,4 +15,4 @@ class Service(models.Model):
 		ordering = ["-created"]
 
 	def __str__(self):
-		return self.titles
+		return self.title
